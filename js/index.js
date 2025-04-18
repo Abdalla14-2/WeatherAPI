@@ -92,12 +92,3 @@ searchInput.addEventListener('input', function () {
   const value = searchInput.value.trim();
   getLocation(value);
 });
-
-navigator.geolocation.getCurrentPosition(
-  async function (position){
-    var latitude = position.coords.latitude;
-    var longitude = position.coords.longitude;
-    var coords = `${lat},${lon}`;
-    await getLocation(coords);
-  }
-)
