@@ -1,0 +1,110 @@
+
+[data-bs-theme="dark"] {
+    background-color: #1E202B !important;
+}
+.sec-text{
+    font-size: 12px;
+}
+.nav-item a:hover{
+    color: #0dcaf0;
+}
+.home-section{
+    background: #1E202B;
+    background-image: url(../IMGs/banner.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.search-input{
+    border-radius: 50px;
+    padding: 5px;
+}
+.the-input{
+    border-radius: 50px 0 0 50px;
+}
+.search-btn{
+    background-color: #00aaff;
+    border-radius: 50px;
+}
+.weather-card {
+    background-color: #2a2d3e;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.weather-card .date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.weather-card .temp {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.weather-card .weather-icon {
+    font-size: 2rem;
+}
+
+.weather-card .info {
+    font-size: 0.9rem;
+    color: #a0c4ff;
+}
+
+.weather-card .details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #ccc;
+}
+.the-input{
+    background-color: #1e1f2b;
+}
+.the-input::placeholder{
+    color: #ccc;
+}
+.the-input:focus{
+    background-color: #1e1f2b;
+}
+footer{
+    background-color: #262936;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+  }
+
+.social-icons a {
+    background-color: #1e2230;
+    color: #00aaff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #00aaff;
+    color: white;
+}
+.contact-section{
+    background-color: #1e1f2b;
+}
+.contact-map{
+    background-color: #262936;
+}
+.my-contact-form::placeholder{
+    color: #ccc;
+}
+#floatingTextarea2::placeholder{
+    color: #ccc;
+}
