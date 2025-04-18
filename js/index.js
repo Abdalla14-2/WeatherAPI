@@ -8,7 +8,7 @@ var finalLocationData;
 
 async function getLocation(selectedCountry = country) {
   country = selectedCountry; 
-  var locationData = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=93f2c400ff3a4fe58a8165741251704&q=${selectedCountry}&days=3`);
+  var locationData = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=93f2c400ff3a4fe58a8165741251704&q=${selectedCountry}&days=3`);
   finalLocationData = await locationData.json();
   threeDaysWeather = finalLocationData.forecast.forecastday;
   console.log(threeDaysWeather);
